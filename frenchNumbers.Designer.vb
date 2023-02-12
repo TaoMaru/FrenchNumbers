@@ -38,7 +38,7 @@ Partial Class frmNumbers
         Me.btnOne.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnOne.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOne.Location = New System.Drawing.Point(18, 86)
+        Me.btnOne.Location = New System.Drawing.Point(11, 86)
         Me.btnOne.Name = "btnOne"
         Me.btnOne.Size = New System.Drawing.Size(55, 28)
         Me.btnOne.TabIndex = 0
@@ -51,7 +51,7 @@ Partial Class frmNumbers
         Me.btnTwo.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnTwo.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTwo.Location = New System.Drawing.Point(93, 86)
+        Me.btnTwo.Location = New System.Drawing.Point(90, 86)
         Me.btnTwo.Name = "btnTwo"
         Me.btnTwo.Size = New System.Drawing.Size(55, 28)
         Me.btnTwo.TabIndex = 1
@@ -64,7 +64,7 @@ Partial Class frmNumbers
         Me.btnThree.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnThree.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnThree.Location = New System.Drawing.Point(168, 86)
+        Me.btnThree.Location = New System.Drawing.Point(169, 86)
         Me.btnThree.Name = "btnThree"
         Me.btnThree.Size = New System.Drawing.Size(55, 28)
         Me.btnThree.TabIndex = 2
@@ -77,7 +77,7 @@ Partial Class frmNumbers
         Me.btnFour.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnFour.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFour.Location = New System.Drawing.Point(243, 86)
+        Me.btnFour.Location = New System.Drawing.Point(248, 86)
         Me.btnFour.Name = "btnFour"
         Me.btnFour.Size = New System.Drawing.Size(55, 28)
         Me.btnFour.TabIndex = 3
@@ -90,7 +90,7 @@ Partial Class frmNumbers
         Me.btnFive.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnFive.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFive.Location = New System.Drawing.Point(318, 86)
+        Me.btnFive.Location = New System.Drawing.Point(327, 86)
         Me.btnFive.Name = "btnFive"
         Me.btnFive.Size = New System.Drawing.Size(55, 28)
         Me.btnFive.TabIndex = 4
@@ -103,7 +103,7 @@ Partial Class frmNumbers
         Me.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.Silver
         Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExit.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(168, 178)
+        Me.btnExit.Location = New System.Drawing.Point(169, 178)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(55, 28)
         Me.btnExit.TabIndex = 5
@@ -126,7 +126,7 @@ Partial Class frmNumbers
         Me.lblFrench.BackColor = System.Drawing.Color.Ivory
         Me.lblFrench.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblFrench.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFrench.Location = New System.Drawing.Point(168, 133)
+        Me.lblFrench.Location = New System.Drawing.Point(169, 133)
         Me.lblFrench.Margin = New System.Windows.Forms.Padding(0)
         Me.lblFrench.Name = "lblFrench"
         Me.lblFrench.Size = New System.Drawing.Size(55, 28)
