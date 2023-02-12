@@ -11,4 +11,8 @@ Public Class frmNumbers
         MaximizeBox = False
 
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnThree.Click
+
+    End Sub
 End Class

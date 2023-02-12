@@ -22,17 +22,108 @@ Partial Class frmNumbers
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.btnOne = New System.Windows.Forms.Button()
+        Me.btnTwo = New System.Windows.Forms.Button()
+        Me.btnThree = New System.Windows.Forms.Button()
+        Me.btnFour = New System.Windows.Forms.Button()
+        Me.btnFive = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
+        '
+        'btnOne
+        '
+        Me.btnOne.BackColor = System.Drawing.Color.LightGray
+        Me.btnOne.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnOne.Location = New System.Drawing.Point(18, 86)
+        Me.btnOne.Name = "btnOne"
+        Me.btnOne.Size = New System.Drawing.Size(55, 28)
+        Me.btnOne.TabIndex = 0
+        Me.btnOne.Text = "1"
+        Me.btnOne.UseVisualStyleBackColor = False
+        '
+        'btnTwo
+        '
+        Me.btnTwo.BackColor = System.Drawing.Color.LightGray
+        Me.btnTwo.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTwo.Location = New System.Drawing.Point(93, 86)
+        Me.btnTwo.Name = "btnTwo"
+        Me.btnTwo.Size = New System.Drawing.Size(55, 28)
+        Me.btnTwo.TabIndex = 1
+        Me.btnTwo.Text = "2"
+        Me.btnTwo.UseVisualStyleBackColor = False
+        '
+        'btnThree
+        '
+        Me.btnThree.BackColor = System.Drawing.Color.LightGray
+        Me.btnThree.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnThree.Location = New System.Drawing.Point(168, 86)
+        Me.btnThree.Name = "btnThree"
+        Me.btnThree.Size = New System.Drawing.Size(55, 28)
+        Me.btnThree.TabIndex = 2
+        Me.btnThree.Text = "3"
+        Me.btnThree.UseVisualStyleBackColor = False
+        '
+        'btnFour
+        '
+        Me.btnFour.BackColor = System.Drawing.Color.LightGray
+        Me.btnFour.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnFour.Location = New System.Drawing.Point(243, 86)
+        Me.btnFour.Name = "btnFour"
+        Me.btnFour.Size = New System.Drawing.Size(55, 28)
+        Me.btnFour.TabIndex = 3
+        Me.btnFour.Text = "4"
+        Me.btnFour.UseVisualStyleBackColor = False
+        '
+        'btnFive
+        '
+        Me.btnFive.BackColor = System.Drawing.Color.LightGray
+        Me.btnFive.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnFive.Location = New System.Drawing.Point(318, 86)
+        Me.btnFive.Name = "btnFive"
+        Me.btnFive.Size = New System.Drawing.Size(55, 28)
+        Me.btnFive.TabIndex = 4
+        Me.btnFive.Text = "5"
+        Me.btnFive.UseVisualStyleBackColor = False
+        '
+        'btnExit
+        '
+        Me.btnExit.BackColor = System.Drawing.Color.LightGray
+        Me.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.Silver
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnExit.Location = New System.Drawing.Point(168, 178)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(55, 28)
+        Me.btnExit.TabIndex = 5
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = False
         '
         'frmNumbers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Gainsboro
         Me.ClientSize = New System.Drawing.Size(392, 213)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnFive)
+        Me.Controls.Add(Me.btnFour)
+        Me.Controls.Add(Me.btnThree)
+        Me.Controls.Add(Me.btnTwo)
+        Me.Controls.Add(Me.btnOne)
         Me.Name = "frmNumbers"
         Me.Text = "French Numbers"
         Me.ResumeLayout(False)
 
     End Sub
 
+    Friend WithEvents btnOne As Button
+    Friend WithEvents btnTwo As Button
+    Friend WithEvents btnThree As Button
+    Friend WithEvents btnFour As Button
+    Friend WithEvents btnFive As Button
+    Friend WithEvents btnExit As Button
 End Class
