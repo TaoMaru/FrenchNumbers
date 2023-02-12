@@ -123,13 +123,16 @@ Partial Class frmNumbers
         '
         'lblFrench
         '
-        Me.lblFrench.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFrench.BackColor = System.Drawing.Color.Ivory
+        Me.lblFrench.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFrench.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFrench.Location = New System.Drawing.Point(168, 133)
+        Me.lblFrench.Margin = New System.Windows.Forms.Padding(0)
         Me.lblFrench.Name = "lblFrench"
         Me.lblFrench.Size = New System.Drawing.Size(55, 28)
         Me.lblFrench.TabIndex = 7
         Me.lblFrench.Text = "Label2"
-        Me.lblFrench.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblFrench.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lblFrench.Visible = False
         '
         'frmNumbers
@@ -147,6 +150,7 @@ Partial Class frmNumbers
         Me.Controls.Add(Me.btnTwo)
         Me.Controls.Add(Me.btnOne)
         Me.Name = "frmNumbers"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "French Numbers"
         Me.ResumeLayout(False)
 
