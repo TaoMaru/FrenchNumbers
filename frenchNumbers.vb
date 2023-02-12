@@ -12,7 +12,45 @@ Public Class frmNumbers
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnThree.Click
+
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        ' on click, calls Close() to close program window
+        Close()
+    End Sub
+
+    Private Sub btnOne_Click(sender As Object, e As EventArgs) Handles btnOne.Click
+        ' on click, displays French translation of 1
+        lblFrench.Visible = True
+        lblFrench.Text = "un"
+
+    End Sub
+
+    Private Sub btnTwo_Click(sender As Object, e As EventArgs) Handles btnTwo.Click
+        ' on click, displays French translation of 2
+        lblFrench.Visible = True
+        lblFrench.Text = "deux"
+
+    End Sub
+
+    Private Sub btnThree_Click(sender As Object, e As EventArgs) Handles btnThree.Click
+        'on click, displays French translation of 3
+        lblFrench.Visible = True
+        lblFrench.Text = "trois"
+
+    End Sub
+
+    Private Sub btnFour_Click(sender As Object, e As EventArgs) Handles btnFour.Click
+        'on click, displays French translation of 4
+        lblFrench.Visible = True
+        lblFrench.Text = "quatre"
+
+    End Sub
+
+    Private Sub btnFive_Click(sender As Object, e As EventArgs) Handles btnFive.Click
+        'on click, displays French translation of 5
+        lblFrench.Visible = True
+        lblFrench.Text = "cinq"
 
     End Sub
 End Class
